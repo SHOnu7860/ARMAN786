@@ -6,10 +6,10 @@ module.exports.config = {
   name: "FAIZ-BOT-3",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "PREM BABU",
-  description: "SAYERI REPLY MR PREM BABU",
+  credits: "FAIZ ANSARI",
+  description: "SAYERI REPLY MR FAIZ ANSARI",
   commandCategory: "NO PREFIX",
-  usages: "PREM-OR-TAKLA",
+  usages: "FAIZ-OR-SHIVA",
   cooldowns: 5,
 }
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
@@ -29,7 +29,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   ////////////////@prem-babu3608/////////////////
    mess = "{name}"
   
-  if (event.body.includes("BOTT") == 1 || (event.body.includes("Arman") == 1)) {
+  if (event.body.includes("BOTT") == 1 || (event.body.includes("BOT") == 1)) {
     var msg = {
       body: `🐥 ${name} 🐥\n\n 👉${rand} \n\n   ❁ ══════ ❃ फैज अंसारी ❃ ══════ ❁`
     }
