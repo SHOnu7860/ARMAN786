@@ -2,7 +2,7 @@ module.exports.config = {
   name: "war",
   version: "1.0.0",
   hasPermssion: 2, // Only admin can use
-  credits: "FAIZ ANSARI",
+  credits: "ARIF-BABU",
   description: "Enables war mode where the bot replies only to messages from a specific user",
   commandCategory: "Admin",
   usages: "war on [UID] / war off",
