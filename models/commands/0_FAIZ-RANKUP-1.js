@@ -2,8 +2,8 @@ module.exports.config = {
     name: "RANKUP-1",
     version: "1.0.1",
     hasPermssion: 1,
-    credits: "PREM BABU",
-    description: "THIS BOT IS MADE BY PREM BABU",
+    credits: "FAIZ ANSARI",
+    description: "THIS BOT IS MADE BY FAIZ ANSARI",
     commandCategory: "RANKUP SYSTEM 1",
     dependencies: {
         "fs-extra": ""
