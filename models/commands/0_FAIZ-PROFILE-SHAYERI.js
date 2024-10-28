@@ -2,8 +2,8 @@ module.exports.config = {
     name: "shayri",
     version: "1.0.0",
     hasPermssion: 0,
-    credits: "PREM BABU",
-    description: "THIS BOT WAS MADE BY MR PREM BABU",
+    credits: "FAIZ ANSARI",
+    description: "THIS BOT WAS MADE BY MR FAIZ ANSARI",
     commandCategory: "SHAYRI PROFILE",
     cooldowns: 0
 };
