@@ -1,15 +1,12 @@
-//@Prem-babu3608
-////////////////////////////////////////////////////////
-/////// WARNING => JO CREDIT NAME CHANGE KREGA USKA ID BAN KAR DIYA JAYEGA + THIS BOT IS MADE BT PREM BABU
 const fs = global.nodemodule["fs-extra"];
 module.exports.config = {
   name: "FAIZ-BOT-1",
   version: "1.0.1",
   hasPermssion: 0,
-  credits: "PREM BABU",
-  description: "ALL REPLY MR PREM BABU",
+  credits: "FAIZ ANSARI",
+  description: "ALL REPLY MR FAIZ ANSARI",
   commandCategory: "NO PREFIX",
-  usages: "TAKLU OR BOT",
+  usages: "SHIVA OR BOT",
   cooldowns: 5,
 }
 module.exports.handleEvent = async function({ api, event, args, Threads, Users }) {
