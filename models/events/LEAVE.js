@@ -2,7 +2,7 @@ module.exports.config = {
   name: "leave",
   eventType: ["log:unsubscribe"],
   version: "1.1.0",
-  credits: "FAIZ",
+  credits: "FAIZ ANSARI",
   description: "Notify when someone leaves the group with a random GIF",
   dependencies: {
     "fs-extra": "",
@@ -45,17 +45,17 @@ module.exports.run = async function({ api, event, Users }) {
 
   // Imgur GIF Links
   const gifLinks = [
-    "https://i.imgur.com/5n88mQU.gif",
-    "https://i.imgur.com/S60tB8i.gif",
-    "https://i.imgur.com/XWvd9Nl.gif",
-    "https://i.imgur.com/FL3xoVQ.gif"
+    "https://i.imgur.com/aESbSZy.gif",
+    "https://i.imgur.com/EnFaYfj.gif",
+    "https://i.imgur.com/ViPQMt1.gif",
+    "https://i.imgur.com/lvzGoe5.gif"
   ];
 
   const randomGif = gifLinks[Math.floor(Math.random() * gifLinks.length)];
   const gifPath = join(__dirname, "cache", "leaveGif", `${threadID}.gif`);
 
   // Message format with time-based session
-  let msg = `✧════•❁🌺𝗚𝗢𝗢𝗗𝗕𝗬𝗘🌺❁•════✧\n\nसुकर है एक ठरकी इस ग्रुप में कम हो गया 😃✌️\nउसका नाम है 𒁍 ${name} \nरीजन 𒁍 ${type}\n╭•┄┅═════════════════❁🌺\nCREATER BY MR FAIZ ANSARI ♥️`;
+  let msg = `╭•┄┅═══❁🌺❁═══┅┄•╮\n  😏   𝗚𝗢𝗢𝗗𝗕𝗬𝗘  😏\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n सुकर है एक ठरकी इस ग्रुप में कम हो गया 😃✌️\nउसका नाम है 𒁍 ${name} \nरीजन 𒁍 ${type}\n╭•┄┅═════════════════❁🌺\nCREATER BY MR FAIZ ANSARI ♥️`;
 
   try {
     // Download the GIF from Imgur
