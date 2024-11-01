@@ -2,8 +2,8 @@ module.exports.config = {
   name: "prefix",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
-  description: "THIS BOT IS MADE BY PREM BABU",
+  credits: "FAIZ ANSARI",
+  description: "THIS BOT IS MADE BY FAIZ ANSARI",
   commandCategory: "BOT-PREFIX",
   usages: "PREFIX",
   cooldowns: 5,
@@ -12,7 +12,7 @@ module.exports.config = {
 module.exports.handleEvent = async ({ event, api, Threads }) => {
   var { threadID, messageID, body, senderID } = event;
   //if (senderID == global.data.botID) return;
-  if ((this.config.credits) != "PREM BABU") { return api.sendMessage(`PREM-BABU-BOT-CREATER 🙂`, threadID, messageID)}
+  if ((this.config.credits) != "FAIZ ANSARI") { return api.sendMessage(`FAIZ-ANSARI-BOT-CREATER 🙂`, threadID, messageID)}
   function out(data) {
     api.sendMessage(data, threadID, messageID)
   }
