@@ -2,8 +2,8 @@ module.exports.config = {
   name: "hack",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
-  description: "THIS BOT WAS MADE BY MR PREM BABU",
+  credits: "FAIZ",
+  description: "THIS BOT WAS MADE BY MR FAIZ",
   commandCategory: "APRIL FULL PRANK",
   usages: "PREFIX",
   dependencies: {
