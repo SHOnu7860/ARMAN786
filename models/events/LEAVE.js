@@ -46,8 +46,8 @@ module.exports.run = async function({ api, event, Users }) {
   // Imgur GIF Links
   const gifLinks = [
     "https://i.imgur.com/aESbSZy.gif",
-    "https://i.imgur.com/EnFaYfj.gif",
-    "https://i.imgur.com/ViPQMt1.gif",
+    "https://i.imgur.com/Yr0K0q0.gif",
+    "https://i.imgur.com/MpBXhBb.gif",
     "https://i.imgur.com/lvzGoe5.gif"
   ];
 
