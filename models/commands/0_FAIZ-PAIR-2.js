@@ -2,8 +2,8 @@ module.exports.config = {
   name: "pair2",
   version: "1.0.0",
   hasPermssion: 0,
-  credits: "PREM BABU",
-  description: "THIS BOT IS MADE BY PREM BABU",
+  credits: "FAIZ ANSARI",
+  description: "THIS BOT IS MADE BY FAIZ ANSARI",
   commandCategory: "LOVE PAIRING",
   usages: "PAIR-2",
   dependencies: {
