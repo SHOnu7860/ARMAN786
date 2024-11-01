@@ -1,9 +1,11 @@
+const FAIZ_BABU= "FAIZ-PROJECT"; // Original credit
+
 module.exports.config = {
   name: "pair",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: FAIZ ANSARI,
-  description: "THIS BOT WAS MADE BY MR FAIZ ANSARI",
+  credits: FAIZ_BABU,
+  description: "THIS BOT WAS MADE BY MR FAIZ BABU",
   commandCategory: "LOVE PAIRING",
   usePrefix: false,
   usages: "PREFIX", 
