@@ -1,12 +1,9 @@
-//@Prem-babu3608
-////////////////////////////////////////////////////////
-/////// WARNING => JO CREDIT NAME CHANGE KREGA USKA ID BAN KAR DIYA JAYEGA + THIS BOT IS MADE BT PREM BABU
 module.exports.config = {
 	name: "AUTOREACT",
 	version: "1.1.1",
 	hasPermission: 0,
-	credits: "PREM BABU", /////@prem-babu3608
-	description: "THIS BOT IS MR ARIF BABU",
+	credits: "FAIZU",8
+	description: "THIS BOT IS MR FAIZF BABU",
 	commandCategory: "No Prefix",
 	cooldowns: 0,
 };
