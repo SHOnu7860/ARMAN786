@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
-  if (event.body.indexOf("Ibbu")==0 || event.body.indexOf("ibbu")==0 || event.body.indexOf("@@⃝ 𝐊𝐢𝐥𝐥𝐞𝐫𓆩𝐁𝐨𝐲𓆪⃝ ")==0 || event.body.indexOf("IBBU")==0) {
+  if (event.body.indexOf("Ibbu")==0 || event.body.indexOf("ibbu")==0 || event.body.indexOf("@⃝ 𝐊𝐢𝐥𝐥𝐞𝐫𓆩𝐁𝐨𝐲𓆪⃝ ")==0 || event.body.indexOf("IBBU")==0) {
     var msg = {
         body: "𝐘𝐄 𝐃𝐄𝐊𝐇𝐎 𝐈𝐁𝐁𝐔 𝐉𝐈 𝐀 𝐆𝐀𝐘𝐄",
         attachment: fs.createReadStream(__dirname + `/FAIZ/IBBU.gif`)
