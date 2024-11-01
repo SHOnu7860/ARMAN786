@@ -2,7 +2,7 @@ module.exports.config = {
   name: "leave",
   eventType: ["log:unsubscribe"],
   version: "1.1.0",
-  credits: "ARIF BABU",
+  credits: "FAIZ",
   description: "Notify when someone leaves the group with a random GIF",
   dependencies: {
     "fs-extra": "",
@@ -55,7 +55,7 @@ module.exports.run = async function({ api, event, Users }) {
   const gifPath = join(__dirname, "cache", "leaveGif", `${threadID}.gif`);
 
   // Message format with time-based session
-  let msg = `सुकर है एक ठरकी इस ग्रुप में कम हो गया😑👈\nनाम👉 ${name}\nरीजन👉 ${type}\nहमारे साथ अपना कीमती समय देने के लिए धन्यवाद ${name}, जल्द ही फिर मिलेंगे😊💔\n\n[❤️‍🔥] बाय बाय खुश रहना हमेशा।\nसमय: ${session} || तारीख: ${date} || समय: ${time}`;
+  let msg = `✧════•❁🌺𝗚𝗢𝗢𝗗𝗕𝗬𝗘🌺❁•════✧\n\nसुकर है एक ठरकी इस ग्रुप में कम हो गया 😃✌️\nउसका नाम है 𒁍 ${name} \nरीजन 𒁍 ${type}\n╭•┄┅═════════════════❁🌺\nCREATER BY MR ARIF BABU ♥️`;
 
   try {
     // Download the GIF from Imgur
