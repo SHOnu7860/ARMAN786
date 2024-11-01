@@ -1,11 +1,11 @@
-const FAIZ_BABU= "FAIZ-PROJECT"; // Original credit
+const PREM_BABU= "PREM-PROJECT"; // Original credit
 
 module.exports.config = {
   name: "pair",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: FAIZ_BABU,
-  description: "THIS BOT WAS MADE BY MR FAIZ BABU",
+  credits: PREM_BABU,
+  description: "THIS BOT WAS MADE BY MR PREM BABU",
   commandCategory: "LOVE PAIRING",
   usePrefix: false,
   usages: "PREFIX", 
