@@ -40,7 +40,7 @@ api.getUserInfo(parseInt(userID), (err, data) => {
                                 memLength.push(participantIDs.length - i++);
 memLength.sort((a, b) => a - b);
 
-                        (typeof threadData.customJoin == "undefined") ? msg = "╭•┄┅═══❁🌺❁═══┅┄•╮\n  💐   FAIZ-BABU  💐\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n✧══❁𝗪𝗘𝗟𝗖𝗢𝗠𝗘❁══✧\nHELLO 𒁍 {uName}\nMEMBER TO 𒁍 {soThanhVien}th\nGROUP NAME 𒁍 {threadName}\n╭•┄┅═════════════════❁🌺\nMY BOSS  𒁍 MR FAIZ BABU ♥️🙂\n╭•┄┅═════════════════❁🌺\n\nआप इस ग्रुप के {soThanhVien}th मेंबर हो......." : msg = threadData.customJoin;
+                        (typeof threadData.customJoin == "undefined") ? msg = "╭•┄┅═══❁🌺❁═══┅┄•╮\n  💐   FAIZ-BABU  💐\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n✧══ ❁𝗪𝗘𝗟𝗖𝗢𝗠𝗘❁ ══✧\nHELLO 𒁍 {uName}\nMEMBER TO 𒁍 {soThanhVien}th\nGROUP NAME 𒁍 {threadName}\n╭•┄┅═════════════════❁🌺\n𝐌𝐘 𝐁𝐎𝐒𝐒 𒁍 𝐅𝐀𝐈𝐙 𝐀𝐍𝐒𝐀𝐑𝐈 ♥️🙂\n╭•┄┅═════════════════❁🌺\n\nआप इस ग्रुप के {soThanhVien}th मेंबर हो......." : msg = threadData.customJoin;
                         msg = msg
                         .replace(/\{uName}/g, nameArray.join(', '))
                         .replace(/\{type}/g, (memLength.length > 1) ?  'you' : 'Friend')
