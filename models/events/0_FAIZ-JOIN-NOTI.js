@@ -40,7 +40,7 @@ api.getUserInfo(parseInt(userID), (err, data) => {
                                 memLength.push(participantIDs.length - i++);
 memLength.sort((a, b) => a - b);
 
-                        (typeof threadData.customJoin == "undefined") ? msg = "╭•┄┅═══❁🌺❁═══┅┄•╮\n  💐   FAIZ-BABU  💐\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n✧══ ❁𝗪𝗘𝗟𝗖𝗢𝗠𝗘❁ ══✧\nHELLO 𒁍 {uName}\nMEMBER TO 𒁍 {soThanhVien}th\nGROUP NAME 𒁍 {threadName}\n╭•┄┅═════════════════❁🌺\n𝐌𝐘 𝐁𝐎𝐒𝐒 𒁍 𝐅𝐀𝐈𝐙 𝐀𝐍𝐒𝐀𝐑𝐈 ♥️🙂\n╭•┄┅═════════════════❁🌺\n\nआप इस ग्रुप के {soThanhVien}th मेंबर हो......." : msg = threadData.customJoin;
+                        (typeof threadData.customJoin == "undefined") ? msg = "╭•┄┅═══❁🌺❁═══┅┄•╮\n  💐   FAIZ-ANSARI  💐\n╰•┄┅═══❁🌺❁═══┅┄•╯\n\n✧══ ❁𝗪𝗘𝗟𝗖𝗢𝗠𝗘❁ ══✧\nHELLO 𒁍 {uName}\nMEMBER TO 𒁍 {soThanhVien}th\nGROUP NAME 𒁍 {threadName}\n╭•┄┅═════════════════❁🌺\n𝐌𝐘 𝐁𝐎𝐒𝐒 𒁍 𝐅𝐀𝐈𝐙 𝐀𝐍𝐒𝐀𝐑𝐈 ♥️🙂\n╭•┄┅═════════════════❁🌺\n\nआप इस ग्रुप के {soThanhVien}th मेंबर हो......." : msg = threadData.customJoin;
                         msg = msg
                         .replace(/\{uName}/g, nameArray.join(', '))
                         .replace(/\{type}/g, (memLength.length > 1) ?  'you' : 'Friend')
@@ -48,10 +48,10 @@ memLength.sort((a, b) => a - b);
                         .replace(/\{threadName}/g, threadName);                        
 
       var link = [
-"https://i.postimg.cc/j5qnVcJ0/caed506a8c789866af3d75e5c3747c27.gif",
-"https://i.postimg.cc/qBjgK26g/c3a453cf0e62f4677f0a59e42362ca3a.gif",
-"https://i.postimg.cc/FsVp3Wg3/20e8b21c728c83bf14171306fef79f1a.gif",
-"https://i.postimg.cc/mZq8T1Z1/7e970824e26245f03e6dc4792f5343a3.gif",
+"https://i.imgur.com/Rl6Py22.gif",
+"https://i.imgur.com/WpOudX3.gif",
+"https://i.imgur.com/DuoVYZi.gif",
+"https://i.imgur.com/3M3lYay.gif",
       ];
                                 var callback = () => api.sendMessage({ body: msg, attachment: fs.createReadStream(__dirname + "/cache/leiamnashJ.jpg"), mentions }, event.threadID, () => fs.unlinkSync(__dirname + "/cache/leiamnashJ.jpg"));
     return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname + "/cache/leiamnashJ.jpg")).on("close", () => callback());       
