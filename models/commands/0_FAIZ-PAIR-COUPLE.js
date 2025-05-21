@@ -59,7 +59,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   var tile = djtme[Math.floor(Math.random() * djtme.length)];
 
   var background = [
-  "https://i.imgur.com/aGcYrWc.jpeg","https://i.imgur.com/wBG7ydM.jpeg","https://i.imgur.com/MwkEBUc.jpeg","https://i.imgur.com/Zb1Obfc.jpeg", "https://i.imgur.com/AOMECIk.jpeg","https://i.imgur.com/aeIERfK.jpeg","https://i.imgur.com/e7YZZIL.jpeg","https://i.imgur.com/aCP3iRN.jpeg","https://i.imgur.com/sk3ghsJ.jpeg","https://i.imgur.com/HtDQIad.jpeg","https://i.imgur.com/nReNHuA.jpeg","https://i.imgur.com/UTOhdUl.jpeg"
+  "https://i.ibb.co/hhVzP1L/received-4157350011215477.png","https://i.ibb.co/VcVVVh3X/received-757726606588909.png","https://i.ibb.co/vxdZscvG/received-1591367071822894.png","https://i.ibb.co/sdzxNZRw/received-1908964256536289.png", "https://i.imgur.com/AOMECIk.jpeg","https://i.imgur.com/aeIERfK.jpeg","https://i.imgur.com/e7YZZIL.jpeg","https://i.imgur.com/aCP3iRN.jpeg","https://i.ibb.co/sdzxNZRw/received-1908964256536289.png","https://i.ibb.co/vxdZscvG/received-1591367071822894.png","https://i.ibb.co/hhVzP1L/received-4157350011215477.png","https://i.ibb.co/sdzxNZRw/received-1908964256536289.png"
   ];
   var rd = background[Math.floor(Math.random() * background.length)];
   
