@@ -1,10 +1,9 @@
-///WARNING THIS BOT IS MADE BY MR PREM BABU AGAR KOI CREADIT NAME CHANGE KREGA USKA FILE BAN HO JAYEGA //////@prem-babu3608//////////
 module.exports.config = {
     name: "pairv",
     version: "7.3.1",
     hasPermssion: 0,
-    credits: "PREM BABU",///@prem-babu3608
-    description: "THIS BOT IS ME PREM SHARMA",
+    credits: "FAIZ ANSARI",
+    description: "THIS BOT IS ME FAIZ ANSARI",
     commandCategory: "MENTION PATNER",
     usages: "PAIRV-1",
     cooldowns: 5, 
@@ -15,13 +14,14 @@ module.exports.config = {
         "jimp": ""
     }
 };   
-      /////////////PREM BABU////////////
+
+
 module.exports.onLoad = async() => {
     const { resolve } = global.nodemodule["path"];
     const { existsSync, mkdirSync } = global.nodemodule["fs-extra"];
     const { downloadFile } = global.utils;
     const dirMaterial = __dirname + `/cache/canvas/`;
-    const path = resolve(__dirname, 'cache/canvas', 'ar2.png');
+    const path = resolve(__dirname, 'cache/canvas', 'ar2.jpeg');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
     if (!existsSync(path)) await downloadFile("https://i.imgur.com/axRfkJp.jpeg", path); 
 }
@@ -33,7 +33,7 @@ async function makeImage({ one, two }) {
     const jimp = global.nodemodule["jimp"];
     const __root = path.resolve(__dirname, "cache", "canvas");
 
-    let batgiam_img = await jimp.read(__root + "/ar2.png");
+    let batgiam_img = await jimp.read(__root + "/ar2.jpeg");
     let pathImg = __root + `/batman${one}_${two}.png`;
     let avatarOne = __root + `/avt_${one}.png`;
     let avatarTwo = __root + `/avt_${two}.png`;
@@ -70,6 +70,7 @@ module.exports.run = async function ({ event, api, args }) {
     if (!mention[0]) return api.sendMessage("Please mention 1 person.", threadID, messageID);
     else {
         const one = senderID, two = mention[0];
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "◦•●◉✿ 💖💖💖 ✿◉●•◦", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "❥︎|======『आपकी सूरत मेरे दिल में ऐसे बस गयी है,
+            जैसे छोटे से दरवाजे 🤭में भैंस फंस गयी है😹』🍫|☻︎", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
     }
       }
