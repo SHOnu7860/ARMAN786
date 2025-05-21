@@ -45,10 +45,10 @@ module.exports.run = async function({ api, event, Users }) {
 
   // Imgur GIF Links
   const gifLinks = [
-    "https://i.imgur.com/aESbSZy.gif",
-    "https://i.imgur.com/Yr0K0q0.gif",
-    "https://i.imgur.com/MpBXhBb.gif",
-    "https://i.imgur.com/lvzGoe5.gif"
+    "https://i.ibb.co/Y7zngyMR/GIF-1.gif",
+    "https://i.ibb.co/MyN0zQvD/GIF-2.gif",
+    "https://i.ibb.co/5XxW2w0B/GIF-3.gif",
+    "https://i.ibb.co/Gv6KkT6R/GIF-4.gif"
   ];
 
   const randomGif = gifLinks[Math.floor(Math.random() * gifLinks.length)];
