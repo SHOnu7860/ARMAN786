@@ -69,6 +69,6 @@ module.exports.run = async function ({ event, api, args }) {
   if (!mention[0]) return api.sendMessage("Please mention 1 person.", threadID, messageID);
   else {
       const one = senderID, two = mention[0];
-      return makeImage({ one, two }).then(path => api.sendMessage({ body: "╔═══❖••° °••❖═══╗\n\n  MILL GYI TERI BF\n\n╚═══❖••° °••❖═══╝", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+      return makeImage({ one, two }).then(path => api.sendMessage({ body: "╔═══❖••° °••❖═══╗\n\n  𝐁𝐀𝐍 𝐆𝐀𝐈 𝐀𝐀𝐏 𝐃𝐎𝐍𝐎 𝐊𝐈 𝐉𝐎𝐃𝐈🫢\n\n╚═══❖••° °••❖═══╝", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
   }
                                             }
