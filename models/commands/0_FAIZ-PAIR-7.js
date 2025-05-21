@@ -19,7 +19,7 @@ module.exports.onLoad = async() => {
     const dirMaterial = __dirname + `/cache/canvas/`;
     const path = resolve(__dirname, 'cache/canvas', 'aag2.jpg');
     if (!existsSync(dirMaterial + "canvas")) mkdirSync(dirMaterial, { recursive: true });
-    if (!existsSync(path)) await downloadFile("https://i.imgur.com/wbKUH09.jpeg", path);
+    if (!existsSync(path)) await downloadFile("https://i.ibb.co/G4y7cGZJ/wbKUH09.jpg", path);
 }
 async function makeImage({ one, two }) {
     const fs = global.nodemodule["fs-extra"];
@@ -77,5 +77,6 @@ module.exports. run = async function({ api, event, args, Users, Threads, Currenc
         var sex = await data[id].gender;
         var gender = sex == 2 ? "Male🧑" : sex == 1 ? "Female👩‍  " : "Tran Duc Bo";
 var one = senderID, two = id;
-    return makeImage({ one, two }).then(path => api.sendMessage({ body: `♥️🙂`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+    return makeImage({ one, two }).then(path => api.sendMessage({ body: `❥︎|======『आपकी सूरत मेरे दिल में ऐसे बस गयी है,
+    जैसे छोटे से दरवाजे 🤭में भैंस फंस गयी है😹』======|☻︎`, mentions: arraytag, attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
 }
