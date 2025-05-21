@@ -51,7 +51,7 @@ module.exports.run = async function({ api, event, args }) {
 	let pathImg = __dirname + '/cache/markngu.png';
 	var text = args.join(" ");
 	if (!text) return api.sendMessage("बाबू साथ में कुछ भी टैक्स्ट लिखो 😐✌️", threadID, messageID);
-	let getPorn = (await axios.get(`https://i.imgur.com/3j4GPdy.jpg`, { responseType: 'arraybuffer' })).data;
+	let getPorn = (await axios.get(`https://i.ibb.co/DDQKmCy4/3j4GPdy.jpg`, { responseType: 'arraybuffer' })).data;
 	fs.writeFileSync(pathImg, Buffer.from(getPorn, 'utf-8'));
 	let baseImage = await loadImage(pathImg);
 	let canvas = createCanvas(baseImage.width, baseImage.height);
