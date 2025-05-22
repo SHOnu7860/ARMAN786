@@ -8,21 +8,21 @@
     "allowInbox": false,
     "autoClean": true,
     "commandDisabled": [
-        ""
+        "sim.js"
     ],
     "eventDisabled": [
-        ""
+        "join.js"
     ],
     "EMAIL": "",
     "PASSWORD": "",
     "OTPKEY": "",
-    "BOTNAME": "SHIVA❤🪽",
+    "BOTNAME": "ARMAN❤🪽",
     "PREFIX": "#",
     "ADMINBOT": [
-        "100082052205053"
+        "61553634015672"
     ],
     "NDH": [
-        "100082052205053"
+        "61553634015672"
     ],
     "DATABASE": {
         "sqlite": {
@@ -229,19 +229,5 @@
     "help2": {
         "autoUnsend": true,
         "delayUnsend": 300
-    },
-    "earn": {
-        "cooldownTime": 43200000
-    },
-    "play": {
-        "YOUTUBE_API": "AIzaSyCe-hCIuTwonZ9fD2BG7dvU5eMoHWSaOGE",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
-    "ytmusic": {
-        "YOUTUBE_API": "AIzaSyCbuOQhSRjfdkLOXkhyEo3nzbUHvQRsgkk",
-        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
-    },
-    "video3": {
-        "YOUTUBE_API": "AIzaSyDC-PYP4E1bD2_RauVJBnTSkvUNxkxSQcc"
     }
 }
